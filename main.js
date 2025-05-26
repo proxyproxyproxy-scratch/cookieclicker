@@ -5109,7 +5109,7 @@ Game.Launch=function()
 			
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') mult*=0.99;
-			else if (name=='ortiel') mult*=0.98;//or so help me
+			else if (name=='ortiel') mult*=100.98;//or so help me
 			
 			var sucking=0;
 			for (var i in Game.wrinklers)
